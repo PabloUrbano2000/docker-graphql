@@ -28,10 +28,10 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t pablourban2000/docker-grapqh:0.0.2 .
+        docker build -t pablourban2000/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: |
-        docker push pablourban2000/docker-grapqh:0.0.2
+        docker push pablourban2000/docker-graphql:0.0.2
         
         
     # - name: Build the Docker image
